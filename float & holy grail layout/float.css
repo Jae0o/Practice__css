@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+/* float 으로 만들기  */
+header {
+    border-bottom: gray 1px solid;
+}
+
+
+
+nav {
+    width: 100px;
+    float: left;
+
+    border-right: gray solid 1px;
+}
+
+article {
+    width: 300px;
+    float: left;
+    /* nav 의 border 와 겹침을 해결하기위해 margin-left -1 주기 */
+    /* 이로인해 nav / article이 늘어나도 border 유지 */
+    border-left: 1px gray solid;
+    margin-left: -1px;
+
+    border-right: gray 1px solid;
+}
+
+aside {
+    width: 100px;
+    float: left;
+    border-left: gray 1px solid;
+    margin-left: -1px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    border-top: 1px gray solid;
+}
+
+.container {
+    width: 500px;
+    border: gray 1px solid;
+}
+
+/* but flex를 이용해 만들면 훨씬 유연함 */
