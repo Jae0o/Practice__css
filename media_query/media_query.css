@@ -1,0 +1,52 @@
+:root {
+    /* color */
+    --color-balck: #000000;
+    --color-white: #ffffff;
+    --color-red: #ff0000;
+    --color-blue: #0000ff;
+    --color-green: #00ff00;
+    --color-pink: #ee82ee;
+    --color-orange: #ffa500;
+}
+
+body {
+    margin: 0;
+}
+
+/* ---------------------test on------------------- */
+
+/* section {
+    height: 1000rem;
+    background-color: red;
+}
+
+@media (max-width:800px) {
+    section {
+        background-color: green;
+    }
+}
+
+@media (max-width:600px) {
+    section {
+        background-color: blue;
+    }
+} */
+
+/* ----------------------test two--------------------- */
+
+header {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    border: red 1rem solid;
+
+}
+
+@media (max-width :700px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-between; */
+    }
+}
