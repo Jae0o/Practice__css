@@ -5,6 +5,8 @@ div {
     background-color: blanchedalmond;
     display: inline-block;
     cursor: pointer;
+    transition: all 1s;
+    transition-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045);
 }
 
 
@@ -32,3 +34,5 @@ div {
     /* transform: skewZ(30deg); */
     transform: skewY(30deg);
 }
+
+/* transition-timing-function: cubic-bezier(0.600, -0.280, 0.735, 0.045) */

@@ -1,0 +1,30 @@
+div {
+    border: 0.5rem solid black;
+    margin: 2rem;
+    padding: 1rem;
+    background-color: blanchedalmond;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div:hover {
+    background-color: red;
+    font-size: 2rem;
+}
+
+/* 기본적인 옵션들 */
+.transition {
+    /* transition 활성화 [ 각각 속성 개별로 지정가능 ] */
+    transition-property: all;
+    /* transition-property: font-size; */
+    /* transition-property: font-size, background-color; */
+
+    /* transition의 시간 */
+    transition-duration: 0.5s;
+
+    /* transition의 딜레이 지연시간 */
+    transition-delay: 0.3s;
+
+    /* transition 각각의 시간부분을 설정해원하는 효과 만들기 [ 메모장에 카피 활용 ] */
+    transition-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+}
