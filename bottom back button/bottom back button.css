@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+#header {
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+}
+
+#main {
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+}
+
+#footer {
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+
+.bottom_back_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-size: large;
+    right: 5rem;
+    bottom: 5rem;
+    width: 5rem;
+    height: 5rem;
+
+    background-color: chartreuse;
+    border: red 0.5rem solid;
+}
+
+/* 잊지말고 포지션 fixed로 둘때는 항상 top bottom right left 지정을 해야한다. */
